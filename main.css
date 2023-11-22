@@ -1,0 +1,565 @@
+/* -----------
+font 
+---------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* --------------
+    Header
+----------------*/
+
+.top-bar{
+    background-color: royalblue;
+    width: 100%;
+    height: 550px;
+}
+.copa-america{
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 80px;
+}
+
+.copa-america h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.watch-live {
+    font-size: 16px;
+    color: white;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+  }
+
+.banner{
+    display: flex;
+    width: 556.01px;
+    height: 438px;
+    margin-left: 800px;
+    
+}
+.banner img{
+    width: 500px;
+    height: 438px;
+    margin-top: 50px;
+}
+
+.banner:hover img{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+
+
+/* -----------------
+top-players
+------------- */
+
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+/* ---------------
+players1 
+------------*/
+
+.players1{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player1 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.neymar{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* ----------------
+players2
+------------ */
+
+.players2{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player2 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.messi{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* ---------------
+players3
+------------*/
+
+.players3{
+    width: 330px;
+    height: 456px;
+    left: 180px;
+    top: 747px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player3 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.rolando{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* -----------------------
+Second-players
+-------------------*/
+
+.second-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+/* ------------
+players4 
+----------*/
+
+.players4{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player4 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.paulo{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* -----------
+players5 
+----------*/
+
+.players5{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player5 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.mesut{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* --------------
+players6
+------------ */
+
+.players6{
+    width: 330px;
+    height: 456px;
+    left: 180px;
+    top: 747px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player6 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.mauro{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* ---------------
+Third-players
+-------------- */
+.third-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+/* -------------
+players7
+------------- */
+
+.players7{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player7 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.di-maria{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* ------------
+players8
+---------- */
+
+.players8{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player8 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.mbappe{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* ------------
+players9
+------------ */
+
+.players9{
+    width: 330px;
+    height: 456px;
+    left: 180px;
+    top: 747px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player9 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.salah{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/*  ---------------
+ Fourth-players
+ -------------- */
+
+.fourth-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+/* ------------
+players10 
+-----------*/
+
+.players10{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player10 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.harry{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* -------------
+ players11 
+ -----------*/
+
+.players11{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player11 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.kevin{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+
+/* -------------
+ players12 
+ ------------*/
+
+.players12{
+    width: 330px;
+    height: 456px;
+    left: 180px;
+    top: 747px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player12 img{
+    width: 300px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 15px;
+}
+.philippe{
+    position: static;
+    text-align: justify;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: 272px;
+    margin: 16px 15px;
+}
+/*----------------------------
+            video
+-----------------------------*/
+
+.video{
+    text-align: center;
+    margin-top: 100px;
+    color:#FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15); 
+}
+.video h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 58px;
+    line-height: 90px;
+    color: royalblue;
+}
+.video video{
+    width: 720px;
+    height: auto;
+    margin-top: -0px;
+    margin-bottom: 20px;
+}
+
+/* -----------
+ footer 
+ ---------*/
+
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 63px;
+}
+.footer img{
+    position: static;
+    width: 430px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+}
+
+/* ----------------------
+     Media Queries
+--------------------- */
+
+/* Mobaile Device */
+
+@media only screen and (max-width:668px) {
+
+    .top-bar{
+        width: 100%;
+    }
+    .copa-america{
+        width: 100%;
+        display: block;
+        left: 2%;
+        text-align: center;
+    }
+    .copa-america h1{
+        font-size: 30px;
+        line-height: 40px;
+        width: 100%;
+        display: block;
+        margin-left: 0%;
+    }
+    .banner{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-left: 2%;  
+    }
+    .banner img{
+        width: 280px;
+        height: auto;
+        margin-top: 270px;
+        margin-left: 25px;
+    }
+    .top-players{
+        width: 100%;
+        margin: 2%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .second-players{
+        width: 100%;
+        margin: 2%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .third-players{
+        width: 100%;
+        margin: 2%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fourth-players{
+        width: 100%;
+        margin: 2%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .video video{
+        width: 100%;
+    }
+    .video h2{
+        width: 100%;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .footer{
+        width: 100%;
+        margin: 5px,0%,0%,0%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer img{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+}
